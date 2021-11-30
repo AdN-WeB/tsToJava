@@ -3,10 +3,10 @@ public class Photo {
 
     private String url;
     private String filename;
-    private Number width;
-    private Number height;
+    private int width;
+    private int height;
 
-    public Photo(String url, String filename, Number width, Number height) {
+    public Photo(String url, String filename, int width, int height) {
 
         this.url = url;
         this.filename = filename;
@@ -34,7 +34,7 @@ public class Photo {
         return width;
     }
 
-    public void setWidth(Number width) {
+    public void setWidth(int width) {
         this.width = width;
     }
 
@@ -42,7 +42,7 @@ public class Photo {
         return height;
     }
 
-    public void setHeight(Number height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 }

@@ -5,7 +5,7 @@ import Photo.Photo;
 
 public class User {
     private Date birthdate;
-    private Number size;
+    private int size;
     private Photo photos;
     private Adresse adress;
 
@@ -21,7 +21,7 @@ public class User {
         return size;
     }
 
-    public void setSize(Number size) {
+    public void setSize(int size) {
         this.size = size;
     }
 
